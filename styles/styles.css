@@ -274,3 +274,77 @@ select{
     background-image: url(../Images/Bandarban.jpg);
     background-repeat: no-repeat;
 }
+
+/* Why Choose Us Section */
+
+.choose-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 100px auto 24px;
+}
+
+.choose-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 486px;
+    margin: 0 auto 48px;
+}
+
+.hotels-service {
+    display: flex;
+    justify-content: space-around;
+    width: 1250px;
+    margin: 0 auto 24px;
+
+}
+
+.hotel-part {
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.service-part {
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.best-price {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 0 auto 100px;
+}
+
+.choose-section  h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 32px;
+    margin-bottom: 16px;
+}
+
+.choose-section p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    width: 486px;
+    margin-left: 32px;
+}
+
+.choose-section img {
+    margin: 32px;
+}
