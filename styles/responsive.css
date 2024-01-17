@@ -158,4 +158,68 @@ input{
         width: 335px;
         margin: 15px auto;
     }
+
+    /* Choose Your Destination Section */
+
+    .destination-title {
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+        margin: 0 auto 15px auto;
+    }
+
+    .destination-img div {
+        margin-right: 0;
+    }
+    
+    .destination-description {
+        width: 643px;
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 16px;
+        font-weight: 400;
+        width: 309px;
+        margin: 0px auto 48px;
+    }
+
+    /* Image Grid */
+
+    .destination-img div, .ban-ban div{
+        font-size: 28px;
+        width:375px;
+        height: 300px;
+        margin-right: 20px;
+        font-weight: 800px;
+        border-radius: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: center;
+    }
+
+    .destination-img{
+        width: 375px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        object-fit: cover;
+    }
+
+    .ban-ban {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 20px;
+        object-fit: cover;
+
+}
+
+
+    
 }

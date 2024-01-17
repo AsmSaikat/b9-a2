@@ -14,6 +14,22 @@
     font-weight: 400;
 }
 
+.title-description-left {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.primary-button {
+    background-color: #FF5400;
+    padding: 16px 34px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    }
 
 /* Nav Related CSS */
 
@@ -129,17 +145,6 @@ select{
     border-radius: 8px;
 }
 
-.find-button {
-    background-color: #FF5400;
-    padding: 16px 34px;
-    color: #FFF;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    border: none;
-    border-radius: 8px;
-    }
-
 
 /*Our Popular Tours Setion*/
 
@@ -161,8 +166,111 @@ select{
     margin-bottom: 25px;
 }
 
-.title-description-left {
-    color: #5A5A5D;
+/* Choose Your Destination Section */
+
+.destination-content {
+    text-align: center;
+}
+
+.destination-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.destination-description {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
+    margin: 24px auto 48px;
+}
+
+/* Image Grid */
+
+.destination-img div, .ban-ban div{
+    font-size: 28px;
+    height: 300px;
+    margin-right: 20px;
+    font-weight: 800px;
+    border-radius: 16px;
+    background-position: center;
+}
+
+.destination-img{
+    width: 1210px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    display: grid;
+    grid-template-areas: 
+    "maldives maldives indonesia indonesia"
+    "srilanka n-america n-america kashmir"
+    ;
+    gap: 20px;
+    object-fit: cover;
+}
+
+.ban-ban {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 1210px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+    object-fit: cover;
+
+}
+
+.destination-img h3, .ban-ban h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 132px;
+    
+}
+
+.maldives {
+    background-image: url(../Images/Maldives.jpg);
+    background-repeat: no-repeat;
+    grid-area: maldives;
+}
+
+.indonesia {
+    background-image: url(../Images/Indonesia.jpg);
+    background-repeat: no-repeat;
+    grid-area: indonesia;
+}
+
+.srilanka {
+    background-image: url(../Images/Srilanka.jpg);
+    background-repeat: no-repeat;
+    grid-area: srilanka;
+}   
+
+
+.n-america {
+    background-image: url(../Images/North\ America.jpg);
+    background-repeat: no-repeat;
+    grid-area: n-america;
+}
+
+.kashmir {
+    background-image: url(../Images/Kashmir.jpg);
+    background-repeat: no-repeat;
+    grid-area: kashmir;
+}
+
+.bangladesh {
+    background-image: url(../Images/Bangladesh.jpg);
+    background-repeat: no-repeat;
+}
+
+.bandarban {
+    background-image: url(../Images/Bandarban.jpg);
+    background-repeat: no-repeat;
 }
