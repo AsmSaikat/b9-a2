@@ -5,7 +5,6 @@
 * {
     font-family: 'Mulish', sans-serif;
     margin: 0;
-    padding: 0;
 }
 
 .title-description-center {
@@ -14,12 +13,7 @@
     font-size: 1rem;
     font-weight: 400;
 }
-.title-description-left {
-    color: #5A5A5D;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-}
+
 
 /* Nav Related CSS */
 
@@ -146,3 +140,29 @@ select{
     border-radius: 8px;
     }
 
+
+    /*Our Popular Tours Setion*/
+
+.popular-tours {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 100px auto;
+}
+
+.popular-content {
+    width: 530px;
+}
+
+.tour-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.title-description-left {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
