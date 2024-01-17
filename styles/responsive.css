@@ -273,7 +273,7 @@ input{
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    margin: 0 auto 100px;
+    margin: 0 auto 20px;
 }
 
 .choose-section  h3 {
@@ -299,5 +299,31 @@ input{
 }
 
 
+/* Newsletter Section */
+
+.newsletter-section, .asm-travel {
+    flex-direction: column;
+
+}
+
+.newsletter-section {
+    width: 375px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+}
+
+footer {
+    margin-top: 15px;
+    padding-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.asm-travel-paragraph {
+    width: 287px;
+}
+
+.hr-line {
+    width: 335px;
+}
 
 }
